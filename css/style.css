@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .header-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  font-weight: 200;
+  color: grey;
+}
+
+header .header-link li:not(n-last) {
+  margin-right: 0.5rem;
+}
+
+.container {
+  margin-top: 6rem;
+  text-align: center;
+  height: 64vh;
+}
+
+.container #item {
+  margin-bottom: 1rem;
+}
+
+.container input {
+  padding: 0.7rem 3.5rem;
+  border-radius: 0.6rem;
+  border-color: lightgray;
+}
+
+.container div button {
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+}
+
+.container div button:hover {
+  padding: 0.8rem;
+}
+
+footer {
+  background-color: lightgrey;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 300;
+}
+
+footer .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+footer .row .col a {
+  text-decoration: none;
+  color: grey;
+  padding: 0.7rem;
+}
+
+footer .row .col1 {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+footer .row .col2 {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+/*# sourceMappingURL=style.css.map */

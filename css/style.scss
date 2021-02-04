@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    .header-link{
+        display: flex;
+        justify-content:flex-end;
+        list-style: none;
+        
+        font-weight: 200;
+        color: grey;
+
+        li:not(n-last){
+            margin-right: 0.5rem;
+        }
+            
+        
+    }
+}
+.container{
+    margin-top: 6rem;
+    text-align: center;
+    height: 64vh;
+
+    #item{
+        margin-bottom: 1rem;
+    }
+    input{
+        padding: 0.7rem 3.5rem;
+        border-radius: 0.6rem;
+        border-color: lightgray;
+    }
+    div{
+        button{
+            background-color: whitesmoke;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border-color:transparent;
+        }
+        button:hover{
+            padding: 0.8rem;
+        }
+    }
+}
+footer{
+    background-color: lightgrey;
+    h3{
+        font-size: 1.5rem;
+        color: gray;
+        font-weight: 300;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .col{
+            a{
+                text-decoration: none;
+                color: grey;
+                padding: 0.7rem;
+            }
+        }
+        .col1{
+            justify-self: start;
+        }
+        .col2{
+            justify-self: end;
+        }
+        
+    }
+}
